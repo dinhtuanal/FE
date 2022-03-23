@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--hiệu ứng-->
+    <script src="js/myJs.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/library_photo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" />
+    <title>CENTRAL Zoo</title>
+</head>
+
+<body>
+    <div id="header" class="header sticky-top container-fluid  p-0">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light my-navbar">
+            <a class="navbar-brand text-light" id="logo" href="index.html">
+                <img src="images/logo.png" width="120px" alt="">
+            </a>
+            <button class="navbar-toggler" data-toggle='collapse' data-target='#main-nav'>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            Gallery
+                        </a>
+                        <ul id="sub-menu" class="dropdown-menu sub-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="library_photo.html">Library Photo</a></li>
+                            <li><a class="dropdown-item" href="commemorative.html">Commemorative Photo</a></li>
+                            <li><a class="dropdown-item" href="animals_detail.html">Animals Detail</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            Ticket
+                        </a>
+                        <ul id="sub-menu" class="dropdown-menu sub-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="zoo_timing.html">Zoo Timing</a></li>
+                            <li><a class="dropdown-item" href="ticket.html">Ticket</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="event.html" class="nav-link">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End Menu -->
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row bg" style="background-image: url(images/bg-3.jpg);">
+                <div class="col-md-6 mx-auto">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="breadcrumb bg-none">
+                                <li class="breadcrumb-item wow fadeInRight">
+                                    <a href="index.html" class="text-light text-uppercase " href="">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active wow flip">
+                                    <span class="text-light">Library Photo</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="">
+                                <input style="padding: 10px 20px;" type="text" class="form-control"
+                                    placeholder="What are you looking for?">
+                                <button class="btn btn-search">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-center mx-auto wow fadeInUp">
+                    <h3 class="border-bottom-purple color-purple py-3 text-uppercase">Wild animal.</h3>
+                    <p class="text-center">
+                        Wildlife traditionally refers to undomesticated animal species, but has come to include all
+                        organisms that grow or live wild in an area without being introduced by humans.[1] Wildlife can
+                        be found in all ecosystems. Deserts, forests, rainforests, plains, grasslands, and other areas,
+                        including the most developed urban areas, all have distinct forms of wildlife.
+                    </p>
+                </div>
+            </div>
+            <div class="row bg-choose py-3 mb-5 wow bounceIn">
+                <div class="col-md-12">
+                    <h3 class="text-center text-uppercase">
+                        Interesting things about animals
+                    </h3>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="hightlight-post">
+                        <div class="zoom-post">
+                            <div class="zoom-img">
+                                <a href="#"><img src="images/library_photo/shark.png" alt=""
+                                        class="img-fluid card-img"></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Shark</h5>
+                            <p class="card-text text-justify">A shark can have up to 30,000 teeth in its lifetime. The
+                                ocean's top predator has many rows of teeth below the visible row of teeth.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="hightlight-post">
+                        <div class="zoom-post">
+                            <div class="zoom-img">
+                                <a href="#"><img src="images/library_photo/starling.png" alt=""
+                                        class="img-fluid card-img"></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Starling</h5>
+                            <p class="card-text text-justify">There are many breeds of ornamental birds that can be
+                                trained to speak exactly the same way as a human.
+                                If your life is too dull, then this is definitely the best pet for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="hightlight-post">
+                        <div class="zoom-post">
+                            <div class="zoom-img">
+                                <a href="#"><img src="images/library_photo/cheetah.png" alt=""
+                                        class="img-fluid card-img"></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Cheetah</h5>
+                            <p class="card-text text-justify">
+                                Cheetah is the fastest species in the world, with a running speed that can reach 112-120
+                                km / h .They can reach a top speed in 60 seconds .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="hightlight-post">
+                        <div class="zoom-post">
+                            <div class="zoom-img">
+                                <a href="#"><img src="images/library_photo/jellyfish.png" alt=""
+                                        class="img-fluid card-img"></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Jellyfish</h5>
+                            <p class="card-text text-justify">
+                                The longest is a giant jellyfish species 75 m (equal to 6 buses in tandem), then whales
+                                with a length of 18m, crocodile, python, stingray up to 8 m in length.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row px-3 gallerys pb-5">
+                <div class="column">
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/adorable-red-panda.png" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/adorable-red-panda.png">Red panda</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/antelope.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/antelope.jpg">Antelope</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/crocodile.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/crocodile.jpg">Crocodile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo//deer.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo//deer.jpg">Deer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/elephant.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/elephant.jpg">Elephant</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/fox.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/fox.jpg">Fox</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/gorilla.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/gorilla.jpg">gorilla</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/hippopotamus.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/hippopotamus.jpg">hippopotamus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/horses.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/horses.jpg">Horses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/hummingbird.png" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/hummingbird.png">hummingbird</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/jelly-fish.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/jelly-fish.jpg">jelly fish</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/kangaroo.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/kangaroo.jpg">kangaroo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/kingfisher.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/kingfisher.jpg">kingfisher</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/leopard.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/leopard.jpg">leopard</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/monkey.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/monkey.jpg">monkey</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/chameleon.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/chameleon.jpg">chameleon</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/otter.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/otter.jpg">otter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="column">
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/owl.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/owl.jpg">owl</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/pangolin.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/pangolin.jpg">pangolin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/pelicans.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/pelicans.jpg">pelicans</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/red-squirrel.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/red-squirrel.jpg">red squirrel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/sheep.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/sheep.jpg">sheep</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/starfish.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/starfish.jpg">starfish</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <div class="post">
+                            <img src="images/library_photo/turtle.jpg" class="img-fluid" alt="">
+                            <div class="post-desc">
+                                <div class="post-info">
+                                    <a href="images/library_photo/turtle.jpg">turtle</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row bg-choose py-3">
+                <div class="col-lg-12 col-md-12">
+                    <h3 class="text-uppercase text-center pb-3 border-bottom-purple">In my animal park</h3>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="text-center">More than</h5>
+                    <h1 class="counter text-center">500</h1>
+                    <p class="text-center">species</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="text-center">Nearly</h5>
+                    <h1 class="counter text-center">1500</h1>
+                    <p class="text-center">individuals</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="text-center">About</h5>
+                    <h1 class="counter text-center">200</h1>
+                    <p class="text-center">animals are preserved</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Content -->
+    <div class="page-footer">
+        <div class="bg-footer-top">
+            <div class="container">
+                <div class="row py-3 d-flex align-center">
+                    <div class="col-md-12 text-center">
+                        <a href="#"><i class="fa fa-facebook-f text-white mr-4"></i></a>
+                        <a href="#"><i class="fa fa-twitter text-white mr-4"></i></a>
+                        <a href="#"><i class="fa fa-google-plus text-white mr-4"></i></a>
+                        <a href="#"><i class="fa fa-youtube text-white mr-4"></i></a>
+                        <a href="#"><i class="fa fa-instagram text-white mr-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center text md-left pt-5 my-footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 ml-0 mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">CENTRAL Zoo</h6>
+                    <p class="mt-2">Wildlife habitats are being destroyed. Many species of animals and plants have come
+                        to extinction</p>
+                    <p class="">So we're all responsible for protecting it. Each of our little actions not only
+                        contributes directly to the conservation of animals, but also has symbolic meaning, creating the
+                        impetus for the conservation of all other wildlife. </p>
+                </div>
+                <div class="col-lg-2 col-md-6 mx-auto mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">Openning Hours</h6>
+                    <p>9AM - 7PM</p>
+                    <P>Weekend:</P>
+                    <p>7AM - 9PM</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mx-auto mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">Useful Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="index.html">Home</a></li>
+                        <li class="my-2"><a href="ticket.html">Ticket</a></li>
+                        <li class="my-2"><a href="about.html">About</a></li>
+                        <li class="my-2"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-auto mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li class="my-2"><i class="fa fa-home mr-2"></i>Yen Bai, Hai Chau, Da Nang</li>
+                        <li class="my-2"><i class="fa fa-envelope mr-2"></i> qwerty@gmail.com</li>
+                        <li class="my-2"><i class="fa fa-phone mr-2"></i> 123-456-789</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bot-footer col-12 text-center">
+            <h5>&copy; CENTRAL Zoo</h5>
+        </div>
+    </div>
+    <!-- End footer -->
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.gallerys').magnificPopup({
+                type: 'image',
+                delegate: 'a',
+                gallery: {
+                    enabled: true
+                }
+            });
+        })
+    </script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script>
+        $('.counter').countUp({
+            'time': 1000,
+            'delay': 10
+        });
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

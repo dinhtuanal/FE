@@ -1,0 +1,14 @@
+.img-circle img{
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+.img-title{
+    text-align: justify;
+    padding-top: 2%;
+    border: 5px solid #790e8b;
+    border-radius: 15px;
+}
+
+img.ab-us{
+    border-radius: 50%;
+}

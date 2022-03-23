@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/myJs.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/son.css">
+    <title>CENTRAL Zoo</title>
+</head>
+
+<body>
+    <div id="header" class="header sticky-top container-fluid p-0">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light my-navbar">
+            <a class="navbar-brand text-light" id="logo" href="index.html">
+                <img src="images/logo.png" width="120px" alt="">
+            </a>
+            <button class="navbar-toggler" data-toggle='collapse' data-target='#main-nav'>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            Gallery
+                        </a>
+                        <ul id="sub-menu" class="dropdown-menu sub-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="library_photo.html">Library Photo</a></li>
+                            <li><a class="dropdown-item" href="commemorative.html">Commemorative Photo</a></li>
+                            <li><a class="dropdown-item" href="animals_detail.html">Animals Detail</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            Ticket
+                        </a>
+                        <ul id="sub-menu" class="dropdown-menu sub-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="zoo_timing.html">Zoo Timing</a></li>
+                            <li><a class="dropdown-item" href="ticket.html">Ticket</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="event.html" class="nav-link">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End Menu -->
+    <div class="ev">
+        <div class="container-fluid">
+            <div class="row bg" style="background-image: url('images/bg-4.jpg');">
+                <div class="col-md-6 mx-auto">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="breadcrumb bg-none">
+                                <li class="breadcrumb-item wow fadeInRight">
+                                    <a href="index.html" class="text-light text-uppercase " href="">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active wow flip">
+                                    <span class="text-light">Event</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="">
+                                <input style="padding: 10px 60px 10px 20px;" type="text" class="form-control"
+                                    placeholder="What are you looking for?">
+                                <button class="btn btn-search">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-3 wow zoomIn">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/Event/event-slide0.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/Event/event-slide1.png" alt="Second slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- End Carousel -->
+        <div class="container-fluid" style="background-color: #f0eeec;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center my-4 wow flip">Plan An Event</h1>
+                        <hr class="wow bounceIn">
+                        <h4 class="h4-header">The wildest events in town start here</h5>
+                            <p>Events are wild at Wild Zoo! Check out what we have going on and come on over for a
+                                roaring good time.</p>
+                            <p>We are currently re-imagining some of your favorite Detroit Zoo events in a way that is
+                                safe and healthy for all.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="mt-4">UPCOMING EVENTS</h2>
+            </div>
+            <div class="container">
+                <div class="row wow fadeInUp">
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-holiday.jpg" alt="" class="card-img-top"
+                                        style="padding: 0px;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">HOLIDAY PARTY</h6>
+                                        <p class="card-text">May - July, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holiday Party</h5>
+                                    <p class="card-text">Light up your holiday party with our Wild Lights packages!
+                                        Available from May to July.</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-run.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-title">RUN LIKE WILD</h6>
+                                        <p class="card-text">August 11, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Run Like Wild</h5>
+                                    <p class="card-text">Ready, get set… charge! Run around and through the Zoo at the
+                                        inaugural Run Like Wild 5K!</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-birthday.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-title">BIRTHDAY PARTY</h6>
+                                        <p class="card-text">January - December, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Birthday Party</h5>
+                                    <p class="card-text">CENTRAL zoo offers a special birthday party packages and plenty of
+                                        entertainment options that are sure to fit your style. </p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-weddings.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-title">WEDDINGS</h6>
+                                        <p class="card-text">Saturday & Sunday, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Weddings</h5>
+                                    <p class="card-text">For a truly unforgettable day, why not get married at CENTRAL Zoo?
+                                        It is truly a venue like no other.</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-painting.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-title">VITUARL PAINTING PARTY</h6>
+                                        <p class="card-text">September 16, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vituarl Painting Party</h5>
+                                    <p class="card-text">You will always have a friend in me! Painted in the style of
+                                        beloved Cincinnati artist Charley Harper.</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-photography.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-title">ZOO PHOTOGRAPHY FOR CHILDREN</h6>
+                                        <p class="card-text">December 28, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zoo Photography For Children</h5>
+                                    <p class="card-text">From 2021 onwards this photography workshop will be even more
+                                        special as we are ...</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <section class="container">
+                    <hr>
+                    <div class="row m-4">
+                        <h3 class="h4-header">Reserve your date now!</h3>
+                        <div class="ml-5">
+                            <div class="btn btn-one btn-purple">
+                                <span>Call: 123-456-789</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Row1-->
+                </section>
+                <div class="row">
+                    <div class="col-md-7 wow fadeInRight">
+                        <div class="container mt-5">
+                            <div class="wrapper bg-white mt-3">
+                                <h2 class="h2 color-purple text-center">Event</h2>
+                                <h2 class="h2 color-purple text-center">Booking</h2>
+
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="name" class="text-muted">Name</label>
+                                        <input type="text" name="name" id="name" required class="form-control">
+                                    </div>
+                                    <div class="d-sm-flex align-items-sm-center justify-content-sm-between pt-1">
+                                        <div class="form-group">
+                                            <label for="email" class="text-muted">Email</label>
+                                            <input type="email" name="email" id="email" required class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone" class="text-muted">Phone</label>
+                                            <input type="tel" name="phone" id="phone" required class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="d-sm-flex align-items-sm-center justify-content-sm-between pt-1">
+                                        <div class="form-group">
+                                            <label for="" class="text-muted">Number of Persons</label>
+                                            <input type="number" name="" id="" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="" class="text-muted">Event</label>
+                                            <select class="form-control" name="" id="">
+                                                <option value="ev-1">Holiday Party</option>
+                                                <option value="ev-2">Run Like Wild</option>
+                                                <option value="ev-3">Birthday Party</option>
+                                                <option value="ev-4">Wedding Party</option>
+                                                <option value="ev-5">Vituarl Painting Party</option>
+                                                <option value="ev-6">Zoo Photography For Children</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="checkin" class="text-muted">Check-in Day</label>
+                                        <input type="date" name="checkin" id="checkin" required class="form-control">
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-purple" type="button">Book Ticket</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Form End -->
+                    </div>
+                    <!--Col-md-7-->
+                    <div class="col-md-4 right-side-bk mt-5 wow fadeInLeft">
+                        <section>
+                            <h2 class="text-center">The Figures Speak</h2>
+                            <p><strong>More than 1000</strong> Events and Conferences have been oganized</p>
+                            <p><strong>Nearly 100</strong> Professional service personnel</p>
+                            <p><strong>More than 10 years</strong> Experience in organnizing events and conferences</>
+                            </p>
+                            <!-- <p><strong>Lorem, ipsum dolor</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis sint quod!</p> -->
+                        </section>
+                    </div>
+                </div>
+                <!--Row2-->
+            </div>
+            <div class="container">
+                <hr class="wow bounceIn">
+                <h2 class="mt-4">PAST EVENTS</h2>
+            </div>
+            <div class="container wow bounceIn">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-night.jpg" alt="" class="card-img-top"
+                                        style="padding: 0px;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">MEMBERS-ONLY NIGHT DRIVE-THRU</h6>
+                                        <p class="card-text">April 29, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Members-only night dvive-thru</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tenetur officia soluta delectus.</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-bears.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-title">BREAKFST WITH THE BEARS: A VITUARL EVENT</h6>
+                                        <p class="card-text">February 3, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">Breakfast with the Bears: A Virtual Event</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="card card-flip h-100">
+                            <div class="card-front card-bg">
+                                <div class="card-inner">
+                                    <img src="images/Event/event-wine.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">WINE TASTINGS</h5>
+                                        <p class="card-text">January 1, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-body">
+                                    <h4 class="card-title">Wine Tastings</h4>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <a href="event_details.html" class="btn btn-purple">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BG Xam-->
+    </div>
+    <!-- End Content -->
+    <div class="page-footer">
+        <div class="bg-footer-top">
+            <div class="container">
+                <div class="row py-3 d-flex align-center">
+                    <div class="col-md-12 text-center">
+                        <a href="#"><i class="fa fa-facebook-f text-white mx-4"></i></a>
+                        <a href="#"><i class="fa fa-twitter text-white mx-4"></i></a>
+                        <a href="#"><i class="fa fa-google-plus text-white mx-4"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play text-white mx-4"></i></a>
+                        <a href="#"><i class="fa fa-instagram text-white mx-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center text md-left pt-5 my-footer">
+            <div class="row mx-5">
+                <div class="col-lg-4 col-md-6 ml-0 mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">CENTRAL Zoo</h6>
+                    <p class="mt-2">Wildlife habitats are being destroyed. Many species of animals and plants have come
+                        to extinction</p>
+                    <p class="">So we're all responsible for protecting it. Each of our little actions not only
+                        contributes directly to the conservation of animals, but also has symbolic meaning, creating the
+                        impetus for the conservation of all other wildlife. </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mx-auto mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">Openning Hours</h6>
+                    <p>Monday - Saturday:</p>
+                    <p>9AM - 7PM</p>
+                    <P>Weekend:</P>
+                    <p>7AM - 9PM</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mx-auto mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">Useful Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="index.html">Home</a></li>
+                        <li class="my-2"><a href="ticket.html">Ticket</a></li>
+                        <li class="my-2"><a href="about.html">About</a></li>
+                        <li class="my-2"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mx-auto mb-0">
+                    <h6 class="text-uppercase font-weight-bold pb-3">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li class="my-2"><i class="fa fa-home mr-2"></i>Yen Bai, Hai Chau, Da Nang</li>
+                        <li class="my-2"><i class="fa fa-envelope mr-2"></i> qwerty@gmail.com</li>
+                        <li class="my-2"><i class="fa fa-phone mr-2"></i> 123-456-789</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bot-footer col-12 text-center">
+            <h5>&copy; CENTRAL Zoo</h5>
+        </div>
+    </div>
+    <!-- End footer -->
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

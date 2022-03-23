@@ -1,0 +1,21 @@
+
+
+.content .container{
+    background-color: #ffffff;
+}
+.bg-picker{
+    border: 1px solid #aaaaaa;
+    background-color: white;
+    box-shadow: 1px 1px 2px #aaaaaa;
+    height: 100%;
+    /* background-color: rgba(176,134,82,0.4); */
+}
+.bg-picker:hover{
+    box-shadow:inset 1px 1px 2px #cccccc;
+    transform: scale(0.98);
+}
+.my-box{
+    padding: 10px;
+    border-radius: 0px 40px;
+    border: 2px solid #df78ef;
+}
